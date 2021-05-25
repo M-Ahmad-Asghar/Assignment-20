@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import Card from "./Components/Cards/Card"
+import Products from "./Components/Cards/products"
+import RecipeReviewCard from "./Components/Cards/Card"
 
 function App() {
   return (
     <div className="App">
-      <Card/> 
+      <RecipeReviewCard/>
+      {/* <Products/> */}
     </div>
   );
 }
